@@ -1,0 +1,27 @@
+﻿<Window x:Class="Cs_ASP_415.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cs_ASP_415"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="driversName" HorizontalAlignment="Left" Height="23" Margin="71,36,0,0" TextWrapping="Wrap" Text="Driver Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DptextBox" HorizontalAlignment="Left" Height="23" Margin="71,89,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DsstextBox" HorizontalAlignment="Left" Height="23" Margin="71,136,0,0" TextWrapping="Wrap" Text="Social " VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="71,182,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="startMile" HorizontalAlignment="Left" Height="23" Margin="71,217,0,0" TextWrapping="Wrap" Text="Start Miles" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="endMile" HorizontalAlignment="Left" Height="23" Margin="71,270,0,0" TextWrapping="Wrap" Text="End Miles" VerticalAlignment="Top" Width="120"/>
+        <Calendar x:Name="StartDateCal" HorizontalAlignment="Left" Margin="260,36,0,0" VerticalAlignment="Top"/>
+        <Calendar x:Name="ReturnDateCal" HorizontalAlignment="Left" Margin="499,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelDN" Content="Label" HorizontalAlignment="Left" Margin="260,222,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label x:Name="labelDP" Content="Label" HorizontalAlignment="Left" Margin="412,222,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="labelDss" Content="Label" HorizontalAlignment="Left" Margin="640,222,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label x:Name="labelTD" Content="Label" HorizontalAlignment="Left" Margin="260,275,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label x:Name="totMiles" Content="Label" HorizontalAlignment="Left" Margin="454,275,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label x:Name="totalPay" Content="Label" HorizontalAlignment="Left" Margin="640,275,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label x:Name="labelDO" Content="Label" HorizontalAlignment="Left" Margin="260,342,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="499,330,0,0" VerticalAlignment="Top" Width="187" Height="57" Click="Button_Click"/>
+    </Grid>
+</Window>
